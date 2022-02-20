@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="canvas" height="600.0" width="800.0" />
+      <VBox layoutX="800.0" layoutY="-1.0" prefHeight="600.0" prefWidth="100.0" spacing="12.0" style="-fx-background-color: gray;">
+         <children>
+            <Button minWidth="75.0" mnemonicParsing="false" onAction="#init" text="Init" />
+            <Button layoutX="25.0" layoutY="35.0" minWidth="75.0" mnemonicParsing="false" onAction="#start" text="Start" />
+         </children>
+         <padding>
+            <Insets left="15.0" right="15.0" top="25.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
